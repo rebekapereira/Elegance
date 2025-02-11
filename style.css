@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    height: 100%; 
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(188, 215, 216);
+}
+div{
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;  
+}
+
+
+h1{
+    color: #fff;
+    background-color: black;
+    height: 65px;
+    margin: 0;
+    
+}
+
+.imgs img{
+    border-radius: 10px; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+.imgs img:hover{
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.05);
+}
+
+.login{
+    display: flex;
+    width: 364px;
+    height: 25px;
+    margin-left: 8px;
+    margin-right: 370px;
+    
+}
+
+.login .botao{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.pesquisa input {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.pesquisa button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
+
+
+
